@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather Application</title>
+    <script defer src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="title_text">Weather Dashboard</h1>
+        <form class="search">
+          <input id="search-bar" type="text" placeholder="Search City..." />
+          <button class="search-btn">
+            <ion-icon class="icon-search" name="search-outline"></ion-icon>
+          </button>
+        </form>
+      </div>
+      <div class="app">
+        <button class="yesterday">
+          <div class="yesterday-btn">
+            <!-- <div class="btn">
+              <p class="yesterday-text">Yesterday</p>
+              <div class="sunrise">
+                <ion-icon name="sunny-outline"></ion-icon>
+                <p>Sunrise</p>
+                <p class="time">5:16 AM</p>
+              </div>
+              <div class="yesterday-tempreature">
+                <p>High 12 C</p>
+              </div>
+              <ion-icon class="backward" name="caret-back-outline"></ion-icon>
+              <div class="sunset">
+                <ion-icon name="moon-outline"></ion-icon>
+                <p>Sunset</p>
+                <p class="time">7:23 PM</p>
+              </div>
+              <div class="yesterday-tempreature">
+                <p>low 12 C</p>
+              </div>
+            </div> -->
+          </div>
+        </button>
+
+        <section class="country">
+          <div>
+            <p class="country-condition">
+              Forecast in <strong class="country-name">Cairo, Egypt </strong>
+            </p>
+            <div class="date">
+              <!-- <p></p> -->
+            </div>
+          </div>
+          <div class="Days">
+            <div class="country-data">
+              <div class="tempreature-data">
+                <p class="tempreature">54 F</p>
+
+                <div class="tempreature-high-low">
+                  <!-- <p class="temp-high">High 51 F</p>
+                  <p class="temp-low">Low 53 F</p> -->
+                </div>
+              </div>
+              <div class="remaining-data">
+                <div class="weather-conditions">
+                  <!-- <p>Clear Sky</p>
+                  <p>feels Like 52</p>
+                  <p>ideal conditions</p> -->
+                </div>
+                <div class="img">
+                  <img
+                    src="images/snowy.svg"
+                    width="80"
+                    height="80"
+                    class="sunny-img"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="conditions">
+              <!-- <div class="lists">
+                <ul class="list">
+                  <li>
+                    <div class="list-data">
+                      <p class="title">Visibility</p>
+                      <p class="vis">5 KM</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-data">
+                      <p class="title">Wind</p>
+                      <p class="vis">8 km/h</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-data">
+                      <p class="title">Humidity</p>
+                      <p class="vis">75%</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-data">
+                      <p class="title">Pressure</p>
+                      <p class="vis">10 KM</p>
+                    </div>
+                  </li>
+                </ul>
+              </div> -->
+            </div>
+            <div class="sun-rise-set">
+              <div class="sunrise">
+                <ion-icon name="sunny-outline"></ion-icon>
+                <p>Sunrise</p>
+                <p class="time">15:16 AM</p>
+              </div>
+              <div class="sunset">
+                <ion-icon name="moon-outline"></ion-icon>
+                <p>Sunset</p>
+                <p class="time">7:23 PM</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <button class="tomorrow">
+          <div class="tomorrow-btn">
+            <!-- <div class="btn">
+              <p class="tomorrow-text">Tomorrow</p>
+              <div class="sunrise">
+                <ion-icon name="sunny-outline"></ion-icon>
+                <p>Sunrise</p>
+                <p class="time">5:16 AM</p>
+              </div>
+              <div class="tomorrow-tempreature">
+                <p>High 12 C</p>
+              </div>
+              <ion-icon class="forward" name="caret-forward-outline"></ion-icon>
+              <div class="sunset">
+                <ion-icon name="moon-outline"></ion-icon>
+                <p>Sunset</p>
+                <p class="time">7:23 PM</p>
+              </div>
+              <div class="tomorrow-tempreature">
+                <p>low 12 C</p>
+              </div>
+            </div> -->
+          </div>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
